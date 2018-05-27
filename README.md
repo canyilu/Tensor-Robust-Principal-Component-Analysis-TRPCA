@@ -4,17 +4,7 @@ Tensor Robust Principal Component Analysis (TRPCA) based on a new tensor nuclear
  
 ![Alt text](https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png)
 
-
-# 机器学习-如何在github上写数学公式
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-居中格式: $$xxx$$
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-靠左格式: \\(xxx\\)
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-测试
-$$\frac{7x+5}{1+y^2}$$
-\\(l(x_i) = - \log_2 P(x_i)\\)
-
+<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cmathcal%7BX%7D%20%3D%20%5Cmathcal%7BL%7D%2B%5Cmathcal%7BE%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0" align="center" border="0" alt="\mathcal{X} = \mathcal{L}+\mathcal{E}" width="82" height="15" />
 
 codes for the following papers:
 
