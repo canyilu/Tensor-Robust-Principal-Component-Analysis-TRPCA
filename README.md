@@ -4,7 +4,8 @@ Tensor Robust Principal Component Analysis (TRPCA) based on a new tensor nuclear
  
 ![Alt text](https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png)
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cmathcal%7BX%7D%20%3D%20%5Cmathcal%7BL%7D%2B%5Cmathcal%7BE%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0" align="center" border="0" alt="\mathcal{X} = \mathcal{L}+\mathcal{E}" width="82" height="15" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{X}&space;=&space;\mathcal{L}&plus;\mathcal{E}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{X}&space;=&space;\mathcal{L}&plus;\mathcal{E}" title="\mathcal{X} = \mathcal{L}+\mathcal{E}" /></a>
+
 
 codes for the following papers:
 
