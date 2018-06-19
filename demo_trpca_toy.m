@@ -34,9 +34,11 @@ tic
 n1
 Lr = norm(L(:)-Lhat(:))/norm(L(:))
 Sr = norm(S(:)-Shat(:))/norm(S(:))
-rank = r
+
 sparsity = m
 sparsityhat = length(find(Shat~=0))
+trank = r
+trankhat = tubalrank(Lhat)
 
 toc
 

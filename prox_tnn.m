@@ -10,25 +10,33 @@ function [X,tnn,trank] = prox_tnn(Y,rho)
 % tnn   -    tensor nuclear norm of X
 % trank -    tensor tubal rank of X
 %
-% version 2.0 - 09/09/2017
+% version 2.1 - 14/06/2018
 %
 % Written by Canyi Lu (canyilu@gmail.com)
 %
+%
 % References: 
+% Canyi Lu, Tensor-Tensor Product Toolbox. Carnegie Mellon University. 
+% June, 2018. https://github.com/canyilu/tproduct.
+%
 % Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng
 % Yan, Tensor Robust Principal Component Analysis with A New Tensor Nuclear
 % Norm, arXiv preprint arXiv:1804.03728, 2018
+%
 
 [n1,n2,n3] = size(Y);
+max12 = max(n1,n2);
 X = zeros(n1,n2,n3);
 Y = fft(Y,[],3);
 tnn = 0;
 trank = 0;
+        
 % first frontal slice
 [U,S,V] = svd(Y(:,:,1),'econ');
 S = diag(S);
 S = max(S-rho,0);
-r = length(find(S~=0));
+tol = max12*eps(max(S));
+r = sum(S > tol);
 S = S(1:r);
 X(:,:,1) = U(:,1:r)*diag(S)*V(:,1:r)';
 tnn = tnn+sum(S);
@@ -40,7 +48,8 @@ for i = 2 : halfn3
     [U,S,V] = svd(Y(:,:,i),'econ');
     S = diag(S);
     S = max(S-rho,0);
-    r = length(find(S~=0));
+    tol = max12*eps(max(S));
+    r = sum(S > tol);
     S = S(1:r);
     X(:,:,i) = U(:,1:r)*diag(S)*V(:,1:r)';    
     X(:,:,n3+2-i) = conj(X(:,:,i));
@@ -54,7 +63,8 @@ if mod(n3,2) == 0
     [U,S,V] = svd(Y(:,:,i),'econ');
     S = diag(S);
     S = max(S-rho,0);
-    r = length(find(S~=0));
+    tol = max12*eps(max(S));
+    r = sum(S > tol);
     S = S(1:r);
     X(:,:,i) = U(:,1:r)*diag(S)*V(:,1:r)';
     tnn = tnn+sum(S);
