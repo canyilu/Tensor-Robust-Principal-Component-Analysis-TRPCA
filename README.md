@@ -2,6 +2,7 @@
 
 ### Introduction
 In [1,2], we propose a new tensor nuclear norm and its based Tensor Robust Principal Component Analysis (TRPCA) model. We provide the exact recovery guarantee of TRPCA under certain conditions. We also provide the codes for solving the following model
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\min_{\mathcal{L},&space;\mathcal{E}}&space;\|\mathcal{L}\|_*&plus;\lambda\|\mathcal{E}\|_1,&space;\text{&space;s.t.&space;}&space;\mathcal{X}&space;=&space;\mathcal{L}&plus;\mathcal{E}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{\mathcal{L},&space;\mathcal{E}}&space;\|\mathcal{L}\|_*&plus;\lambda\|\mathcal{E}\|_1,&space;\text{&space;s.t.&space;}&space;\mathcal{X}&space;=&space;\mathcal{L}&plus;\mathcal{E}" title="\min_{\mathcal{L}, \mathcal{E}} \|\mathcal{L}\|_*+\lambda\|\mathcal{E}\|_1, \text{ s.t. } \mathcal{X} = \mathcal{L}+\mathcal{E}" /></a>
 
 ![Alt text](https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png)
