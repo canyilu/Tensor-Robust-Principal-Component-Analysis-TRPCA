@@ -22,7 +22,7 @@ In [1,2], we propose a new tensor nuclear norm and its based Tensor Robust Princ
 
 ### References
 <ol>
-<li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm, arXiv preprint arXiv:1804.03728, 2018.
-<li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Tensors via Convex Optimization, arXiv preprint arXiv:1804.03728, 2018.
+<li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm, TPAMI, 2019.
+<li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Tensors via Convex Optimization, CVPR, 2016.
 <li> Canyi Lu. Tensor-Tensor Product Toolbox. Carnegie Mellon University, June 2018. https://github.com/canyilu/tproduct.
 </ol>
