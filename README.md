@@ -11,6 +11,7 @@ In [1,2], we propose a new tensor nuclear norm and its based Tensor Robust Princ
 <img src="https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png">
 </p>
 
+We also apply the proposed tensor nuclear norm for tensor completion and provide the exact recovery guarantee in theory [4]. A more general tensor nuclear norm undear general invertible linear transform is proposed in [5] and applied to tensor completion [5] and tensor robust PCA [6].
 
 ### Related Toolboxes
 <ul>
@@ -25,4 +26,11 @@ In [1,2], we propose a new tensor nuclear norm and its based Tensor Robust Princ
 <li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm, TPAMI, 2019.
 <li> Canyi Lu, Jiashi Feng, Yudong Chen, Wei Liu, Zhouchen Lin and Shuicheng Yan, Tensor Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Tensors via Convex Optimization, CVPR, 2016.
 <li> Canyi Lu. Tensor-Tensor Product Toolbox. Carnegie Mellon University, June 2018. https://github.com/canyilu/tproduct.
+<li> Canyi Lu, Jiashi Feng, Zhouchen Lin, Shuicheng Yan. Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements. International Joint Conference on Artificial Intelligence (IJCAI). 2018
+<li> Canyi Lu, Xi Peng, Yunchao Wei. Low-Rank Tensor Completion With a New Tensor Nuclear Norm Induced by Invertible Linear Transforms. IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2019
+<li> Canyi Lu, Pan Zhou. Exact Recovery of Tensor Robust Principal Component Analysis under Linear Transforms. arXiv preprint arXiv:1907.08288. 2019
+
+
+
+
 </ol>
