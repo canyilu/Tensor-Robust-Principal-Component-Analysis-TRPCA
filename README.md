@@ -8,7 +8,7 @@ In [1,2], we propose a new tensor nuclear norm and its based Tensor Robust Princ
 </p>
 
 <p align="center"> 
-<img src="https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png">
+<img src="https://github.com/canyilu/canyilu.github.io/blob/master/images/fig_trpca.png" width='700'>
 </p>
 
 We also apply the proposed tensor nuclear norm for tensor completion and provide the exact recovery guarantee in theory [4]. A more general tensor nuclear norm undear general invertible linear transform is proposed in [5] and applied to tensor completion [5] and tensor robust PCA [6].
